@@ -1,0 +1,432 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", "sans-serif;";
+}
+
+body{
+
+	min-height: 100vh;
+	background: url(images/bgimg.jpg) no-repeat center;
+	background-size: cover;
+    background-position: center;
+	color: white;
+}
+
+.header{
+	background: url(images/bgimg.jpg) no-repeat center;
+	background-size: cover;
+    background-position: center;
+    position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 100px;
+	background: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+}
+.logo1{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-left: 15px;
+}
+.logo{
+
+	font-size: 32px;
+	color: white;
+	text-decoration: none;
+	font-weight: 750;
+}
+
+.navbar .logo a span{
+    color: #00b894;
+    transition: all 0.3s ease;
+}
+
+.navbar a{
+	position: relative;
+	font-size: 20px;
+	color: white;
+	font-weight: 300;
+	text-decoration: none;
+	margin-left: 40px;
+}
+
+.navbar a::before{
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	width: 0;
+	height: 2px;
+	background: white;
+}
+
+*.navbar a:hover::before{
+	width: 100%; 
+}
+
+hr:{
+    margin-left: 4cm;
+    margin-right: 4cm;
+    position: relative;
+}
+.home{
+    display: flex;
+    background: url(images/bgimg.jpg) no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 45px;
+    margin-top: 40px;
+}
+.home .max-width{
+    margin: auto 0 auto 30px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: royalblue;
+    font-weight: 700;
+}
+.home .home-content a{
+    display: inline-block;
+    background: royalblue;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid royalblue;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.home .home-content a:hover{
+    color: royalblue;
+    background: none;
+    text-decoration: none;
+}
+
+.about{
+    background-color: white;
+    color: black;
+}
+
+#about{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: royalblue;
+    margin-top: 20px;
+
+}
+
+.img1{
+	display: flex;
+	height: 500px;
+}
+
+.img1 img{
+	height: 400px;
+	margin: 40px 0px 0px 100px;
+}
+
+.img1 p{
+	margin-top: 40px;
+	margin-left: 50px;
+	margin-right: 10px;
+	justify-content: center;
+	font-size: 22px;
+}
+
+.img1 b{
+	font-weight: 800;
+}
+
+#skills{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+	color: royalblue;
+	margin-top: 20px;
+}
+
+.skill{
+	display: flex;
+	margin-top: 30px;
+}
+
+.heading{
+	font-size: 32px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.skill-html{
+	height: 200px;
+	width: 400px;
+	margin-left: 50px;
+	font-size: 18px;
+}
+
+.skill-html::before{
+	width: 90%;
+}
+
+.skill-html h3{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.
+.skill-css{
+	height: 200px;
+	width: 300px;
+
+
+}
+
+.skill-css h3{
+	text-align: center;
+	margin-left: 70px;
+	margin-top: 50px;
+}
+
+
+.skill-c{
+	height: 200px;
+	width: 400px;
+
+}
+
+.skill-c h3{
+	text-align: center;
+	margin-left: 155px;
+	margin-top: 50px;	
+}
+
+.skill b{
+	font-size: 35px;
+	font-weight: 1000;
+}
+
+button{
+	margin-left: 50%;
+	background-color: royalblue;
+	color: white;
+
+}
+
+.resume a{
+    display: inline-block;
+    background: royalblue;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 15px;
+	margin-left: 495px;
+	margin-bottom: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid royalblue;
+    transition: all 0.3s ease;
+    text-decoration: none;
+
+}
+.resume a:hover{
+    color: royalblue;
+    background: none;
+    text-decoration: none;
+}
+
+.education{
+	background-color: white;
+	color: black;
+}
+.edu{
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 30px;
+	color: royalblue;
+}
+
+.ssc{
+	margin: 0px 200px 0px 200px;
+	font-size: 20px;
+	font-weight: 700;
+	border: 3px solid black;
+	border-radius: 100px;
+/*	background-color: gray;*/
+	margin-top: 15px;
+	text-align: center;
+}
+
+.hsc{
+	margin: 0px 200px 0px 200px;
+	font-size: 20px;
+	font-weight: 700;
+	border: 3px solid black;
+	border-radius: 100px;
+/*	background-color: gray;*/
+	margin-top: 12px;
+	text-align: center;
+}
+
+.engg{
+	margin: 0px 200px 0px 200px;
+	font-size: 20px;
+	font-weight: 700;
+	border: 3px solid black;
+	border-radius: 100px;
+	background-color: white;
+	margin-top: 12px;
+	text-align: center;
+}
+
+.education span{
+	color: blue;
+}
+
+.ssc:hover{
+	background-color: #ccd6ea;
+}
+
+.hsc:hover{
+	background-color: #ccd6ea;
+}
+
+.engg:hover{
+	background-color: #ccd6ea;
+}
+
+.contact{
+	color: white;
+}
+
+.contact-info{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+	color: royalblue;
+}
+
+.basic{
+	margin-left: 50px;
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+.name span{
+	font-size: 22px;
+	font-weight: 700;
+	color: royalblue;
+}
+
+.name{
+	margin-left: 80px;
+	font-size: 17px;
+
+}
+
+.footer{
+	padding: 7px;
+	text-align: center;
+	background: royalblue;
+	color: white;
+	font-size: 20px;
+
+
+}
+
+.change-af:after{
+	content: '';
+	animation: changetext 3s infinite linear;
+}
+
+@keyframes changetext{
+	0%{content: "Web Developer";}
+	50%{content:"Learner"	;}
+	100%{content: "Enthusiastic";}
+	
+}
+
+
+.footer span{
+	color: black;
+	font-weight: 700;
+}
+
+.connect{
+	display: flex;
+}
+
+.social-medias{
+text-align: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size:25px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  text-align: center;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: crimson;
+  color: white;
+}
+
+[class*="col-"]{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
